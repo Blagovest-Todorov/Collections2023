@@ -6,4 +6,8 @@
     <AssemblyName>Collections</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.10.0" />
+  </ItemGroup>
+
 </Project>
