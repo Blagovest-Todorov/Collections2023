@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections.csproj", "{5FB0FAFD-B637-4F14-9CB6-1A2687B2C92C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections.UnitTests", "..\Collections.UnitTests\Collections.UnitTests.csproj", "{53F4C684-DEF9-423A-A0B9-416ADAE2072D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections.UnitTests", "..\Collections.UnitTests\Collections.UnitTests.csproj", "{53F4C684-DEF9-423A-A0B9-416ADAE2072D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections.Tests", "Collections.Tests", "{EEBA6185-FC21-464A-9D93-14376C88CCA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53F4C684-DEF9-423A-A0B9-416ADAE2072D} = {EEBA6185-FC21-464A-9D93-14376C88CCA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {865366FE-C3A0-42AD-87C6-51773255B70E}
